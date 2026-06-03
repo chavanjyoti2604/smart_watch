@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial,sans-serif;
+    transition:0.5s;
+}
+
+.container{
+    text-align:center;
+    padding:30px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+#clock{
+    font-size:60px;
+    font-weight:bold;
+    margin:20px 0;
+}
+
+#countdown{
+    font-size:24px;
+    margin:20px 0;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+input{
+    padding:10px;
+    font-size:16px;
+}
+
+.light-theme{
+    background:#ffffff;
+    color:#000;
+}
+
+.dark-theme{
+    background:#121212;
+    color:white;
+}
+
+.morning{
+    background:linear-gradient(to right,#FFD54F,#FFF176);
+    color:black;
+}
+
+.afternoon{
+    background:linear-gradient(to right,#42A5F5,#90CAF9);
+    color:white;
+}
+
+.night{
+    background:linear-gradient(to right,#0F2027,#203A43,#2C5364);
+    color:white;
+}
